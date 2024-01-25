@@ -48,30 +48,36 @@ scale-info = { version = "2.6", default-features = false, features = ["derive"] 
 #
 # Those files require the ink! dependencies though, by having
 # them as examples here, they inherit the `dev-dependencies`.
+# [[example]]
+# name = "primitive_topic_pass"
+# path = "ui/pass/primitive_topic.rs"
+# [[example]]
+# name = "primitive_topic_fail"
+# path = "ui/fail/primitive_topic.rs"
+# [[example]]
+# name = "storage_never_freed_pass"
+# path = "ui/pass/storage_never_freed.rs"
+# [[example]]
+# name = "storage_never_freed_fail"
+# path = "ui/fail/storage_never_freed.rs"
+# [[example]]
+# name = "strict_balance_equality_pass"
+# path = "ui/pass/strict_balance_equality.rs"
+# [[example]]
+# name = "strict_balance_equality_fail"
+# path = "ui/fail/strict_balance_equality.rs"
+# [[example]]
+# name = "non_fallible_api_pass"
+# path = "ui/pass/non_fallible_api.rs"
+# [[example]]
+# name = "non_fallible_api_fail"
+# path = "ui/fail/non_fallible_api.rs"
 [[example]]
-name = "primitive_topic_pass"
-path = "ui/pass/primitive_topic.rs"
+name = "divide_before_multiply_pass"
+path = "ui/pass/divide_before_multiply.rs"
 [[example]]
-name = "primitive_topic_fail"
-path = "ui/fail/primitive_topic.rs"
-[[example]]
-name = "storage_never_freed_pass"
-path = "ui/pass/storage_never_freed.rs"
-[[example]]
-name = "storage_never_freed_fail"
-path = "ui/fail/storage_never_freed.rs"
-[[example]]
-name = "strict_balance_equality_pass"
-path = "ui/pass/strict_balance_equality.rs"
-[[example]]
-name = "strict_balance_equality_fail"
-path = "ui/fail/strict_balance_equality.rs"
-[[example]]
-name = "non_fallible_api_pass"
-path = "ui/pass/non_fallible_api.rs"
-[[example]]
-name = "non_fallible_api_fail"
-path = "ui/fail/non_fallible_api.rs"
+name = "divide_before_multiply_fail"
+path = "ui/fail/divide_before_multiply.rs"
 
 [package.metadata.rust-analyzer]
 rustc_private = true
